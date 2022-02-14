@@ -1,0 +1,24 @@
+.firstNabDiv{
+    margin: 0 50px;
+}
+.navigationForm input{
+    background-color: rgba(241, 239, 239, 0.829);
+}
+.navbarProfile{
+    width: 40px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.navMainDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+#notifyImg {
+    margin-right: 50px;
+}
+#companyName{
+    margin-right: 100px;
+}
