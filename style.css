@@ -32,6 +32,8 @@
     border-radius: 40px;
     background-color: aqua;
     margin-right: 20px;
+    border: 1px solid gray;
+    
 }
 
 
@@ -71,10 +73,56 @@ color: blueviolet;
 
 #sidevarSection li{
     color: rgb(87, 87, 87);
-    list-style-type: none
+    list-style-type: none;
+    border-left: 2px solid gray;
+    padding-left: 20px;
+    
+}
+#sidevarSection li:focus{
+    color: rgb(6, 121, 167);
+    border-left: 4px solid rgb(6, 121, 167);
+    
+   
     
 }
 
-#sidevarSection ul{
-    border-left: 2px solid gray;
+.commonTextStyle{
+    color: gray;
+  
+}
+
+.commonCartDiv div{
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid rgb(243, 234, 234);
+    border-radius: 10px;
+}
+
+.commonCartDiv div:hover{
+    background-color: black;
+    color: white;
+}
+
+.commonCardStyle{
+    color: rgba(0, 0, 255, 0.651);
+}
+.cardDetails{
+    border: 2px solid rgb(243, 234, 234);
+    margin: 10px;
+}
+.cardDetails:hover{
+    background-color: aquamarine;
+
+}
+
+.cardDetails div:hover{
+    color: brown;
+}
+
+.card{
+    border: 0;
+}
+.firstCardInfo{
+    display: flex;
+    justify-content: space-between;
 }
