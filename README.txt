@@ -1,1 +1,1 @@
-# Live Site: https://iasir-arafat-riaz.github.io/FlyFarInternationalTask/index.html
+# Live Site: https://flyfar-riaz.netlify.app/
