@@ -96,11 +96,13 @@ color: blueviolet;
     margin: 10px;
     border: 2px solid rgb(243, 234, 234);
     border-radius: 10px;
+    transition: transform .2s
 }
 
 .commonCartDiv div:hover{
     background-color: black;
     color: white;
+    transform: scale(1.05)
 }
 
 .commonCardStyle{
@@ -109,10 +111,11 @@ color: blueviolet;
 .cardDetails{
     border: 2px solid rgb(243, 234, 234);
     margin: 10px;
+    transition: transform .2s
 }
 .cardDetails:hover{
     background-color: aquamarine;
-
+    transform: scale(1.05)
 }
 
 .cardDetails div:hover{

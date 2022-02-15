@@ -83,7 +83,7 @@
                         <div class="accordion" id="accordionPanelsStayOpenExample">
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
                                         aria-controls="panelsStayOpen-collapseOne">
                                         <b>Dashboard</b>
@@ -104,7 +104,7 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    <button class="accordion-button " type="button" data-bs-toggle="collapse"
                                         data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true"
                                         aria-controls="panelsStayOpen-collapseTwo">
                                         <b>Invoice</b>
@@ -147,7 +147,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true"
                                     aria-controls="panelsStayOpen-collapseOne">
                                     <b>Money Receipt</b>
@@ -258,88 +258,91 @@
                 </div>
                 <div class="col-md-10 text-center p-4">
                     <!-- first row -->
-                    <div class="row commonCartDiv">
-                        <div class="col">
-                            <h6><small><b class="commonTextStyle">Payable</b></small></h6>
-                            <h5><b>50,000 TK</b></h5>
+                    <section>
+                        <div class="row commonCartDiv">
+                            <div class="col">
+                                <h6><small><b class="commonTextStyle">Payable</b></small></h6>
+                                <h5><b>50,000 TK</b></h5>
+                            </div>
+                            <div class="col commonCardStyle">
+                                <h6><small><b>Unearned</b> </small></h6>
+                                <h5><b>60,000 TK</b></h5>
+                            </div>
+                            <div class="col">
+                                <h6><small><b class="commonTextStyle">Receivable</b> </small></h6>
+                                <h5><b>10,000 TK</b></h5>
+                            </div>
+                            <div class="col">
+                                <h6><small><b class="commonTextStyle"> Prepaid</b> </small></h6>
+                                <h5><b>6,000 TK</b></h5>
+                            </div>
                         </div>
-                        <div class="col commonCardStyle">
-                            <h6><small><b>Unearned</b> </small></h6>
-                            <h5><b>60,000 TK</b></h5>
+                        <!-- Second row -->
+                        <div class="row commonCartDiv">
+                            <div class="col">
+    
+                                <h5><small> <span class="commonTextStyle"><small>Libilities =</small></span> 50,000
+                                        TK</small></h5>
+                            </div>
+                            <div class="col">
+                                <h5><small> <span class="commonTextStyle"><small>Assest =</small></span> 50,000 TK</small>
+                                </h5>
+                            </div>
+    
                         </div>
-                        <div class="col">
-                            <h6><small><b class="commonTextStyle">Receivable</b> </small></h6>
-                            <h5><b>10,000 TK</b></h5>
+    
+                        <!-- third row -->
+                        <div class="row commonCartDiv">
+                            <div class="col commonCardStyle">
+                                <h6><small><b>Bank</b></small></h6>
+                                <h5><b>60,000 TK</b></h5>
+                            </div>
+                            <div class="col commonCardStyle">
+                                <h6><small><b>Mobile Bank</b></small></h6>
+                                <h5><b>60,000 TK</b></h5>
+                            </div>
+                            <div class="col commonCardStyle">
+                                <h6><small><b>Cash</b></small></h6>
+                                <h5><b>60,000 TK</b></h5>
+                            </div>
+    
                         </div>
-                        <div class="col">
-                            <h6><small><b class="commonTextStyle"> Prepaid</b> </small></h6>
-                            <h5><b>6,000 TK</b></h5>
+                        <!-- fourth row -->
+                        <div class="row commonCartDiv">
+                            <div class="col">
+    
+                                <h5><small> <span class="commonTextStyle">Total Cash and Cash equivilent =</span> 50,000
+                                        TK</small></h5>
+                            </div>
+    
+    
                         </div>
-                    </div>
-                    <!-- Second row -->
-                    <div class="row commonCartDiv">
-                        <div class="col">
-
-                            <h5><small> <span class="commonTextStyle"><small>Libilities =</small></span> 50,000
-                                    TK</small></h5>
+    
+                        <!-- Fifth Row -->
+                        <div class="row commonCartDiv">
+                            <div class="col commonCardStyle">
+                                <h6><small><b>Today Sales</b></small></h6>
+                                <h5><b>60,000 TK</b></h5>
+                            </div>
+                            <div class="col commonCardStyle">
+                                <h6><small><b>Purchase</b></small></h6>
+                                <h5><b>60,000 TK</b></h5>
+                            </div>
+                            <div class="col commonCardStyle">
+                                <h6><small><b>Earning</b></small></h6>
+                                <h5><b>60,000 TK</b></h5>
+                            </div>
+                            <div class="col commonCardStyle">
+                                <h6><small><b>Expenses</b></small></h6>
+                                <h5><b>60,000 TK</b></h5>
+                            </div>
                         </div>
-                        <div class="col">
-                            <h5><small> <span class="commonTextStyle"><small>Assest =</small></span> 50,000 TK</small>
-                            </h5>
-                        </div>
-
-                    </div>
-
-                    <!-- third row -->
-                    <div class="row commonCartDiv">
-                        <div class="col commonCardStyle">
-                            <h6><small><b>Bank</b></small></h6>
-                            <h5><b>60,000 TK</b></h5>
-                        </div>
-                        <div class="col commonCardStyle">
-                            <h6><small><b>Mobile Bank</b></small></h6>
-                            <h5><b>60,000 TK</b></h5>
-                        </div>
-                        <div class="col commonCardStyle">
-                            <h6><small><b>Cash</b></small></h6>
-                            <h5><b>60,000 TK</b></h5>
-                        </div>
-
-                    </div>
-                    <!-- fourth row -->
-                    <div class="row commonCartDiv">
-                        <div class="col">
-
-                            <h5><small> <span class="commonTextStyle">Total Cash and Cash equivilent =</span> 50,000
-                                    TK</small></h5>
-                        </div>
-
-
-                    </div>
-
-                    <!-- Fifth Row -->
-                    <div class="row commonCartDiv">
-                        <div class="col commonCardStyle">
-                            <h6><small><b>Today Sales</b></small></h6>
-                            <h5><b>60,000 TK</b></h5>
-                        </div>
-                        <div class="col commonCardStyle">
-                            <h6><small><b>Purchase</b></small></h6>
-                            <h5><b>60,000 TK</b></h5>
-                        </div>
-                        <div class="col commonCardStyle">
-                            <h6><small><b>Earning</b></small></h6>
-                            <h5><b>60,000 TK</b></h5>
-                        </div>
-                        <div class="col commonCardStyle">
-                            <h6><small><b>Expenses</b></small></h6>
-                            <h5><b>60,000 TK</b></h5>
-                        </div>
-                    </div>
+                    </section>
 
                     <br>
                     <!-- Card Area Start  -->
 
+                   <section>
                     <div class="card-group">
                         <div class="card ">
                           
@@ -447,6 +450,7 @@
                         
                         
                     </div>
+                   </section>
 
                     <!-- Card Area End  -->
 
