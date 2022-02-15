@@ -68,3 +68,13 @@ color: blueviolet;
     color: gray;
     margin: 20px;
 }
+
+#sidevarSection li{
+    color: rgb(87, 87, 87);
+    list-style-type: none
+    
+}
+
+#sidevarSection ul{
+    border-left: 2px solid gray;
+}
