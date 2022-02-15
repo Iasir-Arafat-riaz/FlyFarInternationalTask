@@ -22,3 +22,49 @@
 #companyName{
     margin-right: 100px;
 }
+
+.allItems{
+    margin: 0 5px;
+}
+
+.commonButton{
+    padding: 12px;
+    border-radius: 40px;
+    background-color: aqua;
+    margin-right: 20px;
+}
+
+
+.allItems h6{
+
+    color:rgb(43, 95, 95)
+}
+#leaveAppBtn {
+    background-color: blueviolet;
+}
+#item-2{
+color: blueviolet;
+}
+#bambooBtn{
+    background-color: chocolate;
+}
+#item-3{
+    color: chocolate;
+}
+
+#kachvanBtn{
+    background-color: greenyellow;
+}
+#item-4{
+    color: green;
+}
+#rejoinBtn{
+    background-color: brown;
+}
+#item-5{
+    color: brown;
+}
+.hrmText{
+    color: gray;
+    margin: 20px;
+}
